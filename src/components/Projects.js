@@ -138,7 +138,7 @@ const Projects = () => {
                                 </div>
                                 <div className="buttons">
                                     <a href="https://lastbench.herokuapp.com" target="_blank" rel="noopener noreferrer" className="btn btn-success btn-lg">Live</a>
-                                    <a href="https://github.com/mihirkumar02/myportfolio" target="_blank" rel="noopener noreferrer" className="btn btn-default btn-lg">GitHub Code</a>
+                                    <a href="https://github.com/mihirkumar02/myPortfolio" target="_blank" rel="noopener noreferrer" className="btn btn-default btn-lg">GitHub Code</a>
                                 </div>
                             </div>
                             <div className="col-md-6 col-sm-12">
