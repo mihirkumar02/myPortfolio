@@ -86,7 +86,7 @@ textarea{
   display: none;
   position: absolute;
   right: 20px;
-  top: 50px;
+  top: 40px;
 }
 
 .bar1, .bar2, .bar3{
@@ -482,7 +482,16 @@ textarea{
   animation: bouncestop;
 }
 
+.card1:hover{
+  box-shadow: none;
+  animation: bouncestop;
+}
+
 .card h3{
+  font-weight: bold;
+}
+
+.card1 h3{
   font-weight: bold;
 }
 
@@ -748,10 +757,10 @@ svg circle:nth-child(2){
   }
 
   .social .row .linkbutton{
-    height: 44px;
-    width: 44px;
+    height: 52px;
+    width: 52px;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 23px;
   }
 
   .aboutmeimg{
