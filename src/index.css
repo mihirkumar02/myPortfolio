@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Catamaran', sans-serif;
+  max-width: 100vw;
 }
 
 textarea{
@@ -48,7 +49,7 @@ textarea{
 
 .nav{
   min-height: 10vh;
-  padding: 3vh 0;
+  padding: 2vh 0;
   font-weight: bold;
   overflow: hidden;
   font-size: 25px;
@@ -58,6 +59,10 @@ textarea{
   position: fixed;
   z-index: 99;
   width: 100%;
+}
+
+.change.nav{
+  box-shadow: 0 0 20px 3px black;
 }
 
 .logo{
@@ -169,6 +174,31 @@ textarea{
   border-bottom: 1px solid black;
 }
 
+.banner{
+  display: none;
+  margin-top: 30vh;
+  text-align: center;
+}
+
+.banner h1{
+  font-size: 50px;
+  transform: rotate(-15deg);
+  color: #090541;
+  font-family: 'Dancing Script', cursive;
+}
+
+.heading-home{
+  margin: 25vh auto 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+
+.mydetails{
+  text-align: center;
+}
+
 .heading-projects{
   margin-top: 25vh;
   display: flex;
@@ -186,10 +216,11 @@ textarea{
 }
 
 .centered{
-  margin-top: 5vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 3vh;
+}
+
+.description{
+  text-align: center;
 }
 
 .form-box{
@@ -203,28 +234,25 @@ textarea{
 
 .social{
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 25%;
 }
 
-.social ul li{
+.social .row .linkbutton{
   display: inline-block;
   height: 70px;
   width: 70px;
   border-radius: 50%;
   padding-top: 15px;
   font-size: 30px;
-  margin-right: 7px;
   list-style-type: none;
   box-shadow: 0 5px 10px -3px black;
 }
 
-.social ul li i{
+.social .row .linkbutton i{
   color: #FFFAFB;
 }
 
-.social ul li:hover{
+.social .row .linkbutton:hover{
   box-shadow: none;
   cursor: pointer;
   transition-duration: 1s;
@@ -381,6 +409,12 @@ textarea{
   text-align: center;
   margin-bottom: 30px;
   border-bottom: 1px solid #031125;
+  font-family: 'Dancing Script', cursive;
+  color: #090541;
+}
+
+.innerheading h1 {
+  font-size: 45px;
 }
 
 .innermern{
@@ -539,7 +573,7 @@ svg circle:nth-child(2){
   background-color: white;
   padding: 30px 20px;
   min-height: 40vh;
-  width: 80%;
+  width: 100%;
   border-radius: 10px;
   box-shadow: -3px 6px 15px -6px black;
   margin-bottom: 20px;
@@ -610,7 +644,7 @@ svg circle:nth-child(2){
 .achievecard{
   padding: 30px 20px;
   min-height: 20vh;
-  width: 80%;
+  width: 100%;
   border-bottom: 1px solid black;
 }
 
@@ -620,13 +654,28 @@ svg circle:nth-child(2){
 
 .achieveimage{
   text-align: center;
-  width: 20%;
+}
+
+.achieveinner{
+  width: 50%;
 }
 
 .achievenameleft, .achieveaboutleft, .achievebuttonleft, .achievedateleft{
   text-align: left;
 }
 
+.custom-row{
+  column-count: 3;
+  margin-bottom: 20px;
+}
+
+.column{
+  width: 100%;
+}
+
+.social .row .linkbutton{
+  margin-bottom: 10px;
+}
 
 @keyframes bordered{
   from{
@@ -638,10 +687,42 @@ svg circle:nth-child(2){
   }
 }
 
-
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 996px) {
   .nav{
     overflow: visible;
+  }
+
+  .banner{
+    display: block;
+  }
+
+  .heading-home{
+    margin: 7vh auto 0 auto;
+  }
+
+  .innerheading{
+    display: none;
+  }
+
+  .imagecenter{
+    margin-top: 1vh;
+  }
+
+  .form-box{
+    width: 80%;
+    padding: 40px;
+  }
+
+  .links-heading{
+    margin-top: 50px;
+  }
+
+  .social{
+    margin-top: 5%;
+  }
+
+  .social .row .linkbutton{
+    margin-bottom: 10px;
   }
 
   .menu{
@@ -669,6 +750,53 @@ svg circle:nth-child(2){
   }
 
   .show{
-    max-height: 500px;
+    max-height: 270px;
+  }
+  
+  .achieveinner{
+    max-width: 40%;
+    margin: 10px 0;
+  }
+
+  .achievename, .achieveabout, .achievebutton, .achievedate{
+    text-align: center;
+  }
+
+  
+  .achievenameleft, .achieveaboutleft, .achievebuttonleft, .achievedateleft{
+    text-align: center;
+  }
+
+  .projectcard{
+    background-color: white;
+    padding: 30px 20px;
+    min-height: 30vh;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: -3px 6px 15px -6px black;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg , #f7ece4, #f3cfc1, #f07f52);
+  }
+  
+  .projectname h2{
+    font-size: 25px;
+  }
+
+  .projectabout h4{
+    font-size: 17px;
+  }
+
+  .projectimage{
+    padding: 5px;
+    max-width: 60%;
+    margin: 10px auto 0 auto;
+  }
+
+  .projecttechimage{
+    margin: 0 2px;
+    height: 30px;
+    width: 30px;
   }
 }
+

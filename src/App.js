@@ -30,6 +30,7 @@ class App extends Component {
   });
 
   $(".click").on("click", function(){
+    $('.nav').toggleClass("change");
     $('.menu').toggleClass("show");
     $('.bar1').toggleClass("change");
     $('.bar2').toggleClass("change");
