@@ -37,7 +37,7 @@ const Proficiency = () => {
                 </div>
             </div>
             <div className="card-row tech">
-                <div className="columncard card">
+                <div className="columncard card1">
                     <div className="box">
                         <div className="percent">
                             <svg>
@@ -51,7 +51,7 @@ const Proficiency = () => {
                         <h3>React JS</h3>
                     </div>
                 </div>
-                <div className="columncard card">
+                <div className="columncard card1">
                     <div className="box">
                         <div className="percent">
                             <svg>

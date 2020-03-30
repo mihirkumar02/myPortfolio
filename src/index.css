@@ -462,7 +462,7 @@ textarea{
   color: #5fb458;
 }
 
-.card{
+.card, .card1{
   background: linear-gradient(0deg, #ffb187, #f0d1bc,#fae7e7);
   display: flex;
   justify-content: center;
@@ -551,12 +551,12 @@ svg circle:nth-child(2){
   stroke: #777373;
 }
 
-.card:nth-child(3) svg circle:nth-child(2){
+.card1:nth-child(1) svg circle:nth-child(2){
   stroke-dashoffset: calc(440 - (440 * 50) / 100);
   stroke: #61dbfb;
 }
 
-.card:nth-child(4) svg circle:nth-child(2){
+.card1:nth-child(2) svg circle:nth-child(2){
   stroke-dashoffset: calc(440 - (440 * 70) / 100);
   stroke: #5fb458;
 }
@@ -862,6 +862,11 @@ svg circle:nth-child(2){
   }
 
   .card h3{
+    font-size: 12px;
+  }
+
+  
+  .card1 h3{
     font-size: 12px;
   }
 
