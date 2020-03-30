@@ -116,7 +116,7 @@ textarea{
 }
 
 .other{
-  min-height: 80vh;
+  min-height: 70vh;
   font-family: 'Rubik', sans-serif;
 }
 
@@ -261,6 +261,10 @@ textarea{
 
 .tech{
   margin-top: 5vh;
+}
+
+.toolcenter{
+  text-align: center;
 }
 
 .lowertech{
