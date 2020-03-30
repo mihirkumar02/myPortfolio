@@ -25,7 +25,7 @@ const Home = () => {
                         </div>
                         <div className="mydetails">
                             <ul>
-                                <li><i className="fa fa-envelope"></i><a href="mailto:mihirkumar02@gmail.com"> mihirkumar02@gmail.com</a></li>
+                                <li><i className="fa fa-envelope"></i><a className="mail" href="mailto:mihirkumar02@gmail.com"> mihirkumar02@gmail.com</a></li>
                                 <li><i className="fa fa-phone"></i><a href="tel:+91-7044168689"> +91-7044168689</a></li>
                                 <li><i className="fa fa-map-marker"></i> Faridabad, India</li>
                             </ul>

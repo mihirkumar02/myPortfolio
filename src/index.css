@@ -203,6 +203,14 @@ textarea{
   text-align: center;
 }
 
+.mydetails a{
+  font-size: 20px;
+}
+
+.mydetails li{
+  font-size: 20px;
+}
+
 .heading-projects{
   margin-top: 25vh;
   display: flex;
@@ -729,6 +737,17 @@ svg circle:nth-child(2){
     box-shadow: 0 3px 5px -2px black;
   }
 }
+
+@media only screen and (max-width: 430px){
+  .mydetails a{
+    font-size: 14px;
+  }
+
+  .mydetails li{
+    font-size: 14px;
+  }
+}
+
 
 @media only screen and (max-width: 996px) {
   .nav{
