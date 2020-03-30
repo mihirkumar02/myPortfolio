@@ -137,8 +137,8 @@ const Projects = () => {
                                     <img className="projecttechimage" src={nodejs} alt="Node JS"/>
                                 </div>
                                 <div className="buttons">
-                                    <a href="https://itsmemihir.netlify.com-=-098q" target="_blank" rel="noopener noreferrer" className="btn btn-success btn-lg">Live</a>
-                                    <a href="https://github.com/mihirkumar02/myPortfolio" target="_blank" rel="noopener noreferrer" className="btn btn-default btn-lg">GitHub Code</a>
+                                    <a href="https://itsmemihir.netlify.com" target="_blank" rel="noopener noreferrer" className="btn btn-success btn-lg">Live</a>
+                                    <a href="https://github.com/mihirkumar02/myportfolio" target="_blank" rel="noopener noreferrer" className="btn btn-default btn-lg">GitHub Code</a>
                                 </div>
                             </div>
                             <div className="col-md-6 col-sm-12">
