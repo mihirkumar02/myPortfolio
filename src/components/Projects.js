@@ -130,11 +130,8 @@ const Projects = () => {
                                     <img className="projecttechimage" src={html5} alt="HTML 5"/>
                                     <img className="projecttechimage" src={css} alt="CSS"/>
                                     <img className="projecttechimage" src={js} alt="JavaScript"/>
-                                    <img className="projecttechimage" src={jquery} alt="jQuery"/>
-                                    <img className="projecttechimage" src={mongodb} alt="Mongo DB"/>
-                                    <img className="projecttechimage" src={expressjs} alt="Express JS"/>   
+                                    <img className="projecttechimage" src={jquery} alt="jQuery"/> 
                                     <img className="projecttechimage" src={reactjs} alt="React JS"/>   
-                                    <img className="projecttechimage" src={nodejs} alt="Node JS"/>
                                 </div>
                                 <div className="buttons">
                                     <a href="https://itsmemihir.netlify.com" target="_blank" rel="noopener noreferrer" className="btn btn-success btn-lg">Live</a>

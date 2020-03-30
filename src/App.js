@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import $ from 'jquery';
 import Navbar from './components/Navbar';
-import ContactForm from './components/ContactForm';
 import Home from './components/Home';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
@@ -66,7 +65,6 @@ class App extends Component {
               <Route path="/achievements" component={Achievements} />
               <Route path="/projects" component={Projects} />
               <Route path="/resume" component={Resume} />
-              <Route path="/contact" component={ContactForm}/>
            </Switch>
         </div>
       </BrowserRouter>

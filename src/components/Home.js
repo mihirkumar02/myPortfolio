@@ -1,10 +1,11 @@
 import React from 'react';
 import me2 from '../me2.jpg';
+import Social from './Social';
 
 const Home = () => {
     return ( 
         <div className="Home">
-            <div className="container other">
+            <div className="container other down">
                 <div className="banner">
                     <h1>Mihir Kumar Singh</h1>
                 </div>
@@ -34,6 +35,12 @@ const Home = () => {
                 <div className="description">
                     <h3>A self-taught developer, building for the society.</h3>
                 </div>
+            </div>
+            <div className="container smallother">
+                <div className="links-heading">
+                    <h2>Connect With Me</h2>
+                </div>
+                <Social />
             </div>
         </div>
     );
