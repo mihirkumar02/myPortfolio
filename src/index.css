@@ -49,7 +49,7 @@ textarea{
 
 .nav{
   min-height: 10vh;
-  padding: 2vh 0;
+  padding: 2vh 0 1vh 0;
   font-weight: bold;
   overflow: hidden;
   font-size: 25px;
@@ -111,7 +111,7 @@ textarea{
 
 .menu{
   float: right;
-  margin-top: 3vh;
+  margin-top: 2vh;
   transition: 0.2s ease-in;
 }
 
@@ -781,14 +781,14 @@ svg circle:nth-child(2){
   .menu li{
     border-top: 1px solid #f07f52;
   }
-
+  
   .click{
     display: inline-block;
     cursor: pointer;
   }
 
   .show{
-    max-height: 270px;
+    max-height: 280px;
   }
   
   .achieveinner{
