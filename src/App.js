@@ -37,6 +37,22 @@ class App extends Component {
     $('.bar3').toggleClass("change");
   });
 
+  $('.menu li a').on("click", function(){
+    $('.nav').toggleClass("change");
+    $('.menu').toggleClass("show");
+    $('.bar1').toggleClass("change");
+    $('.bar2').toggleClass("change");
+    $('.bar3').toggleClass("change");
+  });
+
+  $('.me').on("click", function(){
+    $('.nav').toggleClass("change");
+    $('.menu').toggleClass("show");
+    $('.bar1').toggleClass("change");
+    $('.bar2').toggleClass("change");
+    $('.bar3').toggleClass("change");
+  });
+
   }
 
   render(){
