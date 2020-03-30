@@ -6,10 +6,17 @@ const Navbar = () => {
     return (  
         <div className="nav">
             <div className="container">
-                <Link to="/">
-                    <img className="me" src={me} alt="That's Me!" />
-                </Link>
-                <ul>
+                <div className="logo">
+                    <Link to="/">
+                        <img className="me" src={me} alt="That's Me!" />
+                    </Link>
+                </div>
+                <a className="click">
+                    <div className="bar1"></div>
+                    <div className="bar2"></div>
+                    <div className="bar3"></div>
+                </a>
+                <ul className="menu">
                     <li><NavLink to="/skills">Skills</NavLink></li>
                     <li><NavLink to="/achievements">Achievements</NavLink></li>
                     <li><NavLink to="/projects">Projects</NavLink></li>

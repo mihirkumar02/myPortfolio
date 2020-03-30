@@ -121,7 +121,7 @@ const Projects = () => {
                         <div className="row">
                             <div className="col-md-6 col-sm-12">
                                 <div className="projectname">
-                                    <h2><a href="https://itsmemihir.herokuapp.com" target="_blank" rel="noopener noreferrer">My Portfolio Website</a></h2>
+                                    <h2><a href="https://itsmemihir.netlify.com" target="_blank" rel="noopener noreferrer">My Portfolio Website</a></h2>
                                 </div>
                                 <div className="projectabout centered">
                                     <h4>My first website built using React JS, which showcases my work, achievements, skills and resume.</h4>

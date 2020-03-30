@@ -48,63 +48,25 @@ textarea{
 
 .nav{
   min-height: 10vh;
-  padding-top: 5vh;
+  padding: 3vh 0;
   font-weight: bold;
+  overflow: hidden;
   font-size: 25px;
+  top: 0;
   background-color: #0B132B;
   box-shadow: 0 0 10px 5px black;
   position: fixed;
-  z-index: 1;
+  z-index: 99;
   width: 100%;
 }
 
-.nav ul{
-  float: right;
-  margin-top: 3vh;
-}
-
-.nav ul li{
-  display: inline-block;
-  padding: 0 20px;
-  list-style-type: none;
-}
-
-.nav ul li:hover{
-  opacity: 0.6;
-  cursor: pointer;
-}
-
-.nav ul li a{
-  color: #FFFAFB; 
-}
-
-.nav ul li a:hover{
-  text-decoration: none;
-}
-
-.nav ul li a.active {
-  text-decoration: none;
-  color: #FFFAFB;
-  position: relative;
-  z-index: 1;
-}
-
-
-.nav ul li a.active:before{
-  content: "";
-  position: absolute;
-  left: 25%;
-  right: 25%;
-  bottom: 0;
-  border-bottom: 3px solid #f3bc74; 
-  animation: bordered 0.5s;
+.logo{
+  float: left;
 }
 
 .me{
   height: 12vh;
   width: 12vh;
-  margin-bottom: 3vh;
-  margin-left: 3vh;
   border-radius: 50%;
   border: 0.5px solid #9cf5df;
   transition-duration: 0.5s;
@@ -113,6 +75,75 @@ textarea{
 
 .me:hover{
   box-shadow: none;
+}
+
+.click{
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 50px;
+}
+
+.bar1, .bar2, .bar3{
+  margin: 6px;
+  width: 40px;
+  height: 3px;
+  background: white;
+  transition: 0.2s ease-in;
+}
+
+.change.bar1{
+  transform: rotate(-45deg) translate(-8px, 5px);
+}
+
+.change.bar3{
+  transform: rotate(45deg) translate(-7px, -6px);
+}
+
+.change.bar2{
+  opacity: 0;
+}
+
+.menu{
+  float: right;
+  margin-top: 3vh;
+  transition: 0.2s ease-in;
+}
+
+.menu li{
+  display: inline-block;
+  padding: 0 20px;
+  list-style-type: none;
+}
+
+.menu li:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.menu li a{
+  color: #FFFAFB; 
+}
+
+.menu li a:hover{
+  text-decoration: none;
+}
+
+.menu li a.active {
+  text-decoration: none;
+  color: #FFFAFB;
+  position: relative;
+  z-index: 1;
+}
+
+.menu li a.active:before{
+  content: "";
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  bottom: 0;
+  border-bottom: 3px solid #f3bc74; 
+  animation: bordered 0.5s;
 }
 
 .other{
@@ -604,5 +635,40 @@ svg circle:nth-child(2){
 
   to{
     width: 50%;
+  }
+}
+
+
+@media only screen and (max-width: 995px) {
+  .nav{
+    overflow: visible;
+  }
+
+  .menu{
+    width: 100%;
+    right: 0;
+    top: 80px;
+    overflow: hidden;
+    max-height: 0;
+  }
+
+  .menu li{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .menu li:nth-child(1){
+    border-top: 1px solid #f07f52;
+  }
+
+  .click{
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .show{
+    max-height: 500px;
   }
 }

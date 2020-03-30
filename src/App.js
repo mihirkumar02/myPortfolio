@@ -28,6 +28,14 @@ class App extends Component {
   $('#btnUp').click(function(){
     $('html, body').animate({scrollTop: 0}, 100);
   });
+
+  $(".click").on("click", function(){
+    $('.menu').toggleClass("show");
+    $('.bar1').toggleClass("change");
+    $('.bar2').toggleClass("change");
+    $('.bar3').toggleClass("change");
+  });
+
   }
 
   render(){
