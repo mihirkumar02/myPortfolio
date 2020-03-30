@@ -738,13 +738,25 @@ svg circle:nth-child(2){
   }
 }
 
-@media only screen and (max-width: 430px){
+@media only screen and (max-width: 440px){
   .mydetails a{
     font-size: 14px;
   }
 
   .mydetails li{
     font-size: 14px;
+  }
+
+  .social .row .linkbutton{
+    height: 44px;
+    width: 44px;
+    padding-top: 10px;
+    font-size: 20px;
+  }
+
+  .aboutmeimg{
+    height: 200px;
+    width: 200px;
   }
 }
 
