@@ -17,38 +17,38 @@ const Tech = () => {
                 <h1><b>Tech Stack</b></h1>
             </div>
             <div className="row centered tech">
-                <div className="col-md-3 col-sm-12 offset-md-1">
+                <div className="col-md-3 col-sm-12 offset-md-1 imagecenter">
                     <img src={mongodb} alt="MongoDB" title="MongoDB"/>
                 </div>
-                <div className="col-md-3 col-sm-12">
+                <div className="col-md-3 col-sm-12 imagecenter">
                     <img src={expressjs} alt="ExpressJS" title="Express JS"/>
                 </div>
-                <div className="col-md-3 col-sm-12">
+                <div className="col-md-3 col-sm-12 imagecenter">
                     <img src={reactjs} alt="ReactJS" title="React JS"/>
                 </div>
-                <div className="col-md-2 col-sm-12">
+                <div className="col-md-2 col-sm-12 imagecenter">
                     <img src={nodejs} alt="NodeJS" title="Node JS"/>
                 </div>
             </div>
             <div className="row centered tech">
-                <div className="col-md-3 col-sm-12 offset-md-1">
+                <div className="col-md-3 col-sm-12 offset-md-1 imagecenter">
                     <img src={html5} alt="HTML5" title="HTML 5"/>
                 </div>
-                <div className="col-md-3 col-sm-12">
+                <div className="col-md-3 col-sm-12 imagecenter">
                     <img src={css} alt="CSS3" title="CSS 3"/>  
                 </div>
-                <div className="col-md-3 col-sm-12">
+                <div className="col-md-3 col-sm-12 imagecenter">
                     <img src={js} alt="JavaScript" title="JavaScript"/>
                 </div>
-                <div className="col-md-2 col-sm-12">
+                <div className="col-md-2 col-sm-12 imagecenter">
                     <img src={jquery} alt="JQuery" title="jQuery"/>
                 </div>
             </div>
             <div className="row centered tech">
-                <div className="col-md-6 col-sm-12 lowertech">
+                <div className="col-md-6 col-sm-12 lowertech imagecenter">
                     <img src={bootstrap} alt="Bootstrap" title="Bootstrap"/>
                 </div>
-                <div className="col-md-6 col-sm-12 lowertech">
+                <div className="col-md-6 col-sm-12 lowertech imagecenter">
                     <img src={passport} alt="Passport JS" title="Passport JS"/>
                 </div>
             </div>

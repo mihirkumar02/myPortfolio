@@ -9,8 +9,8 @@ const Resume = () => {
                 <div className="heading-projects">
                     <h1><b>My Resume</b></h1>
                 </div>
-                <div className="row centered resumeright">
-                    <div className="col-md-4 col-sm-12">
+                <div className="row centered">
+                    <div className="col-md-4 col-sm-12 resumecenter">
                         <Link to="/myResume.pdf" target="_blank" download>
                             <img className="resume" src={resume} alt="My Resume" />
                         </Link>

@@ -54,7 +54,7 @@ textarea{
   overflow: hidden;
   font-size: 25px;
   top: 0;
-  background-color: #0B132B;
+  background-color: #0a1430;
   box-shadow: 0 0 10px 5px black;
   position: fixed;
   z-index: 99;
@@ -456,17 +456,17 @@ textarea{
   align-items: center;
   padding: 10px;
   width: 250px;
-  margin: 0 10px;
+  margin: 0 15px;
   border-radius: 5px;
   text-align: center;
   overflow: hidden;
   transition: 0.2s;
-  box-shadow: 0 3px 5px -2px black;
+  animation: bounce 0.5s alternate infinite;
 }
 
 .card:hover{
-  transform: translateY(-10px);
-  box-shadow: 0 8px 10px -2px black;
+  box-shadow: none;
+  animation: bouncestop;
 }
 
 .card h3{
@@ -479,7 +479,6 @@ textarea{
   height: 150px;
   border-radius: 50%;
   box-sizing: inset 0 0 50px black;
-  z-index: 1000;
 }
 
 .percent .number{
@@ -512,7 +511,6 @@ textarea{
 svg{
   width: 150px;
   height: 150px;
-  z-index: 1000;
 }
 
 svg circle{
@@ -554,8 +552,8 @@ svg circle:nth-child(2){
   margin-bottom: 10px;
 }
 
-.resumeright{
-  text-align: right;
+.resumecenter{
+  text-align: center;
 }
 
 .resume{
@@ -677,6 +675,24 @@ svg circle:nth-child(2){
   margin-bottom: 10px;
 }
 
+.card-row{
+  column-count: 2;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.columncard{
+  width: 25%;
+  margin: 10px;
+}
+
+.box{
+  text-align: center;
+}
+
+
 @keyframes bordered{
   from{
     width: 0%;
@@ -684,6 +700,28 @@ svg circle:nth-child(2){
 
   to{
     width: 50%;
+  }
+}
+
+@keyframes bounce{
+  from{
+    box-shadow: 0 3px 5px -2px black;
+  } 
+
+  to{
+    transform: translateY(-3px);
+    box-shadow: 0 8px 10px -2px black;
+  }
+}
+
+@keyframes bouncestop{
+  from{
+    box-shadow: 0 3px 5px -2px black;
+  } 
+
+  to{
+    
+    box-shadow: 0 3px 5px -2px black;
   }
 }
 
@@ -740,7 +778,7 @@ svg circle:nth-child(2){
     margin: 0;
   }
 
-  .menu li:nth-child(1){
+  .menu li{
     border-top: 1px solid #f07f52;
   }
 
@@ -797,6 +835,15 @@ svg circle:nth-child(2){
     margin: 0 2px;
     height: 30px;
     width: 30px;
+  }
+
+  .card h3{
+    font-size: 12px;
+  }
+
+  .toolcenter{
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 }
 

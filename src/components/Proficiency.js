@@ -6,8 +6,8 @@ const Proficiency = () => {
             <div className="heading-tools">
                 <h1><b>Proficiency</b></h1>
             </div>
-            <div className="row centered tech">
-                <div className="col-md-3 col-sm-12 card">
+            <div className="card-row tech">
+                <div className="columncard card">
                     <div className="box">
                         <div className="percent">
                             <svg>
@@ -21,7 +21,7 @@ const Proficiency = () => {
                         <h3>MongoDB</h3>
                     </div>
                 </div>
-                <div className="col-md-3 col-sm-12 card">
+                <div className="columncard card">
                     <div className="box">
                         <div className="percent">
                             <svg>
@@ -35,7 +35,9 @@ const Proficiency = () => {
                         <h3>Express JS</h3>
                     </div>
                 </div>
-                <div className="col-md-3 col-sm-12 card">
+            </div>
+            <div className="card-row tech">
+                <div className="columncard card">
                     <div className="box">
                         <div className="percent">
                             <svg>
@@ -49,7 +51,7 @@ const Proficiency = () => {
                         <h3>React JS</h3>
                     </div>
                 </div>
-                <div className="col-md-3 col-sm-12 card">
+                <div className="columncard card">
                     <div className="box">
                         <div className="percent">
                             <svg>
