@@ -13,6 +13,9 @@ import js from '../icons/javascript.svg';
 import jquery from '../icons/jquery.svg';
 import passport from '../icons/passport.svg';
 
+import aym from '../aym.png';
+import bootstrap from '../icons/bootstrap.svg';
+
 const Projects = () => {
     return (  
         <div className="Projects">
@@ -141,6 +144,36 @@ const Projects = () => {
                             <div className="col-md-6 col-sm-12">
                                 <div className="projectimage">
                                     <img className="cardimage" src={portfolio} alt="My portfolio" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row centered">
+                    <div className="projectcard">
+                        <div className="row">
+                            <div className="col-md-6 col-sm-12">
+                                <div className="projectname">
+                                    <h2><a href="https://allyourmovies.netlify.com" target="_blank" rel="noopener noreferrer">All Your Movies</a></h2>
+                                </div>
+                                <div className="projectabout centered">
+                                    <h4>A website which displays Movies' and TV series' details extracted from OMDb API.</h4>
+                                </div>
+                                <div className="techused">
+                                    <img className="projecttechimage" src={html5} alt="HTML 5"/>
+                                    <img className="projecttechimage" src={css} alt="CSS"/>
+                                    <img className="projecttechimage" src={js} alt="JavaScript"/>
+                                    <img className="projecttechimage" src={bootstrap} alt="Bootstrap"/>
+                                    <img className="projecttechimage" src={reactjs} alt="React JS"/>   
+                                </div>
+                                <div className="buttons">
+                                    <a href="https://allyourmovies.netlify.com" target="_blank" rel="noopener noreferrer" className="btn btn-success btn-lg">Live</a>
+                                    <a href="https://github.com/mihirkumar02/allyourmovies" target="_blank" rel="noopener noreferrer" className="btn btn-default btn-lg">GitHub Code</a>
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-sm-12">
+                                <div className="projectimage">
+                                    <img className="cardimage" src={aym} alt="All your movies" />
                                 </div>
                             </div>
                         </div>

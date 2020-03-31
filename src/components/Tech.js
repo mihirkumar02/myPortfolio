@@ -9,6 +9,7 @@ import js from '../icons/javascript.svg';
 import jquery from '../icons/jquery.svg';
 import bootstrap from '../icons/bootstrap.svg';
 import passport from '../icons/passport.svg';
+import redux from '../icons/redux.svg';
 
 const Tech = () => {
     return (  
@@ -45,11 +46,14 @@ const Tech = () => {
                 </div>
             </div>
             <div className="row centered tech">
-                <div className="col-md-6 col-sm-12 lowertech imagecenter">
+                <div className="col-md-4 col-sm-12 lowertech imagecenter">
                     <img src={bootstrap} alt="Bootstrap" title="Bootstrap"/>
                 </div>
-                <div className="col-md-6 col-sm-12 lowertech imagecenter">
+                <div className="col-md-4 col-sm-12 lowertech imagecenter">
                     <img src={passport} alt="Passport JS" title="Passport JS"/>
+                </div>
+                <div className="col-md-4 col-sm-12 lowertech imagecenter">
+                    <img src={redux} alt="Redux JS" title="Redux JS"/>
                 </div>
             </div>
         </div>
