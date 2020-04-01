@@ -12,6 +12,7 @@ import css from '../icons/css-3.svg';
 import js from '../icons/javascript.svg';
 import jquery from '../icons/jquery.svg';
 import passport from '../icons/passport.svg';
+import redux from '../icons/redux.svg';
 
 import aym from '../aym.png';
 import bootstrap from '../icons/bootstrap.svg';
@@ -134,7 +135,7 @@ const Projects = () => {
                                     <img className="projecttechimage" src={css} alt="CSS"/>
                                     <img className="projecttechimage" src={js} alt="JavaScript"/>
                                     <img className="projecttechimage" src={jquery} alt="jQuery"/> 
-                                    <img className="projecttechimage" src={reactjs} alt="React JS"/>   
+                                    <img className="projecttechimage" src={reactjs} alt="React JS"/>      
                                 </div>
                                 <div className="buttons">
                                     <a href="https://itsmemihir.netlify.com" target="_blank" rel="noopener noreferrer" className="btn btn-success btn-lg">Live</a>
@@ -164,7 +165,8 @@ const Projects = () => {
                                     <img className="projecttechimage" src={css} alt="CSS"/>
                                     <img className="projecttechimage" src={js} alt="JavaScript"/>
                                     <img className="projecttechimage" src={bootstrap} alt="Bootstrap"/>
-                                    <img className="projecttechimage" src={reactjs} alt="React JS"/>   
+                                    <img className="projecttechimage" src={reactjs} alt="React JS"/> 
+                                    <img className="projecttechimage" src={redux} alt="Redux JS"/>  
                                 </div>
                                 <div className="buttons">
                                     <a href="https://allyourmovies.netlify.com" target="_blank" rel="noopener noreferrer" className="btn btn-success btn-lg">Live</a>
