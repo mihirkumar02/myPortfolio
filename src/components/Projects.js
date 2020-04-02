@@ -15,6 +15,7 @@ import passport from '../icons/passport.svg';
 import redux from '../icons/redux.svg';
 
 import aym from '../aym.png';
+import map from '../map-ui.png';
 import bootstrap from '../icons/bootstrap.svg';
 
 const Projects = () => {
@@ -176,6 +177,67 @@ const Projects = () => {
                             <div className="col-md-6 col-sm-12">
                                 <div className="projectimage">
                                     <img className="cardimage" src={aym} alt="All your movies" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row centered">
+                        <div className="projectcard">
+                            <div className="row">
+                                <div className="col-md-6 col-sm-12">
+                                    <div className="projectname">
+                                        <h2><a href="https://countcovid.netlify.com" target="_blank" rel="noopener noreferrer">Count Covid-19 INDIA</a></h2>
+                                    </div>
+                                    <div className="projectabout centered">
+                                        <h4>Website for displaying state-wise count of Covid-19 cases in India.</h4>
+                                    </div>
+                                    <div className="techused">
+                                        <img className="projecttechimage" src={html5} alt="HTML 5"/>
+                                        <img className="projecttechimage" src={css} alt="CSS"/>
+                                        <img className="projecttechimage" src={js} alt="JavaScript"/>
+                                        <img className="projecttechimage" src={bootstrap} alt="Bootstrap"/>
+                                        <img className="projecttechimage" src={reactjs} alt="React JS"/> 
+                                        <img className="projecttechimage" src={redux} alt="Redux JS"/>  
+                                    </div>
+                                    <div className="buttons">
+                                        <a href="https://countcovid.netlify.com" target="_blank" rel="noopener noreferrer" className="btn btn-success btn-lg">Live</a>
+                                        <a href="https://github.com/mihirkumar02/countCovid-19INDIA" target="_blank" rel="noopener noreferrer" className="btn btn-default btn-lg">GitHub Code</a>
+                                    </div>
+                                </div>
+                                <div className="col-md-6 col-sm-12">
+                                    <div className="projectimage">
+                                        <img className="cardimage" src={aym} alt="All your movies" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row centered">
+                        <div className="projectcard">
+                            <div className="row">
+                                <div className="col-md-6 col-sm-12">
+                                    <div className="projectname">
+                                        <h2><a href="https://map-ui.netlify.com" target="_blank" rel="noopener noreferrer">Map - UI</a></h2>
+                                    </div>
+                                    <div className="projectabout centered">
+                                        <h4>A User Interface designed using React JS and Google Maps API.</h4>
+                                    </div>
+                                    <div className="techused">
+                                        <img className="projecttechimage" src={html5} alt="HTML 5"/>
+                                        <img className="projecttechimage" src={css} alt="CSS"/>
+                                        <img className="projecttechimage" src={js} alt="JavaScript"/>
+                                        <img className="projecttechimage" src={bootstrap} alt="Bootstrap"/>
+                                        <img className="projecttechimage" src={reactjs} alt="React JS"/> 
+                                    </div>
+                                    <div className="buttons">
+                                        <a href="https://map-ui.netlify.com" target="_blank" rel="noopener noreferrer" className="btn btn-success btn-lg">Live</a>
+                                        <a href="https://github.com/mihirkumar02/Map-UI" target="_blank" rel="noopener noreferrer" className="btn btn-default btn-lg">GitHub Code</a>
+                                    </div>
+                                </div>
+                                <div className="col-md-6 col-sm-12">
+                                    <div className="projectimage">
+                                        <img className="cardimage" src={map} alt="Map - UI" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
