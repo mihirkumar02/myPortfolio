@@ -15,6 +15,7 @@ import passport from '../icons/passport.svg';
 import redux from '../icons/redux.svg';
 
 import aym from '../aym.png';
+import covid from '../covid.png';
 import map from '../map-ui.png';
 import bootstrap from '../icons/bootstrap.svg';
 
@@ -206,7 +207,7 @@ const Projects = () => {
                                 </div>
                                 <div className="col-md-6 col-sm-12">
                                     <div className="projectimage">
-                                        <img className="cardimage" src={aym} alt="All your movies" />
+                                        <img className="cardimage" src={covid} alt="Count Covid-19" />
                                     </div>
                                 </div>
                             </div>
