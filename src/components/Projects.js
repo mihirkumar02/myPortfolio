@@ -182,6 +182,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
+                </div>
                     <div className="row centered">
                         <div className="projectcard">
                             <div className="row">
@@ -243,7 +244,6 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     );
