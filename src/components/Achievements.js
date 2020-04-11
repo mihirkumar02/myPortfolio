@@ -1,6 +1,7 @@
 import React from 'react';
 import lco from '../lco.PNG';
 import hcj from '../hcj.PNG';
+import internshala from '../internshala.PNG';
 
 const Achievements = () => {
     return (  
@@ -8,6 +9,34 @@ const Achievements = () => {
             <div className="container other"> 
                 <div className="heading-projects">
                     <h1><b>Achievements and Certifications</b></h1>
+                </div>
+                <div className="row centered">
+                    <div className="achievecard">
+                        <div className="row">
+                            <div className="col-md-6 col-sm-12">
+                                <div className="achieveimage">
+                                    <img className="achieveinner" src={internshala} alt="Intershala Trainings" />
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-sm-12">
+                                <div className="achievenameleft">
+                                    <h2>Machine Learning Training</h2>
+                                </div>
+                                <div className="achieveaboutleft">
+                                    <h4>Internshala Trainings</h4>
+                                </div>
+                                <div className="achievedateleft">
+                                    <h4>2020-04-11</h4>
+                                </div>
+                                <div className="achievedateleft">
+                                    <h4>8C4406DB-DCCD-2D75-739B-E28CACD2D50E</h4>
+                                </div>
+                                <div className="achievebuttonleft">
+                                    <a href="https://trainings.internshala.com/verify_certificate" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-md collapsible">View Certificate</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="row centered">
                     <div className="achievecard">
