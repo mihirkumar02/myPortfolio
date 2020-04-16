@@ -7,7 +7,9 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Achievements from './components/Achievements';
 import Resume from './components/Resume';
-  
+
+
+/*  
 const TypeWriter = function (txtElement, words, wait = 1000) {
     this.txtElement = txtElement;
     this.words = words;
@@ -72,6 +74,7 @@ function init() {
     // INIT TypeWriter
     new TypeWriter(txtElement, words, wait);
 }
+*/
 
 
 
@@ -123,8 +126,9 @@ class App extends Component {
 /*
 // Initialize on DOM Load
 document.addEventListener('DOMContentLoaded', init);
-*/
+
 init();
+*/
 }
 
   render(){

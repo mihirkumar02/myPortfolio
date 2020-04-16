@@ -2,6 +2,7 @@ import React from 'react';
 import me2 from '../me2.jpg';
 import Social from './Social';
 
+import ReactRotatingText from 'react-rotating-text';
 
 const Home = () => {
     return ( 
@@ -22,7 +23,7 @@ const Home = () => {
                             <h1>Mihir Kumar Singh</h1>
                         </div>
                         <div className="innermern">
-                            <h2><span className="txt-type" data-wait="1000" data-words='["MERN Stack Web Developer", "Machine Learning Enthusiast", "Photographer", "Sketch Artist"]'></span></h2>
+                            <h2><ReactRotatingText items={["MERN Stack Web Developer", "Machine Learning Enthusiast", "Photographer", "Sketch Artist"]} /></h2>
                         </div>
                         <div className="mydetails">
                             <ul>
