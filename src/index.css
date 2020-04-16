@@ -721,6 +721,9 @@ svg circle:nth-child(2){
   margin-left:15px;font-size:28px !important;
 }
 
+.txt-type {
+  border-right: 0.2rem solid black;
+}
 
 @keyframes bordered{
   from{

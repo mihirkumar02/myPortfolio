@@ -2,6 +2,7 @@ import React from 'react';
 import me2 from '../me2.jpg';
 import Social from './Social';
 
+
 const Home = () => {
     return ( 
         <div className="Home">
@@ -21,7 +22,7 @@ const Home = () => {
                             <h1>Mihir Kumar Singh</h1>
                         </div>
                         <div className="innermern">
-                            <h2><span className="mern"><span className="m boldletter">M</span><span className="e boldletter">E</span><span className="r boldletter">R</span><span className="n boldletter">N</span></span> Stack Web Developer</h2>
+                            <h2><span className="txt-type" data-wait="1000" data-words='["MERN Stack Web Developer", "Machine Learning Enthusiast", "Photographer", "Sketch Artist"]'></span></h2>
                         </div>
                         <div className="mydetails">
                             <ul>
@@ -43,7 +44,7 @@ const Home = () => {
                 <Social />
             </div>
             <div className="container">
-                <a class="bmc-button" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/7TnEa63"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee" /><span className="buyspan">Buy me a coffee</span></a>
+                <a className="bmc-button" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/7TnEa63"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee" /><span className="buyspan">Buy me a coffee</span></a>
             </div>
         </div>
     );
