@@ -42,6 +42,9 @@ const Home = () => {
                 </div>
                 <Social />
             </div>
+            <div className="container">
+                <a class="bmc-button" target="_blank" rel="noopener noreferrer" href="https://www.buymeacoffee.com/7TnEa63"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee" /><span className="buyspan">Buy me a coffee</span></a>
+            </div>
         </div>
     );
 }
