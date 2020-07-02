@@ -84,11 +84,15 @@ textarea{
 }
 
 .click{
+  background-color: transparent;
+  border: none;
   display: none;
   position: absolute;
   right: 20px;
   top: 40px;
 }
+
+
 
 .bar1, .bar2, .bar3{
   margin: 6px;

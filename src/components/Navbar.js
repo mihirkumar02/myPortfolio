@@ -11,11 +11,11 @@ const Navbar = () => {
                         <img className="me" src={me} alt="That's Me!" />
                     </Link>
                 </div>
-                <a className="click">
+                <button className="click">
                     <div className="bar1"></div>
                     <div className="bar2"></div>
                     <div className="bar3"></div>
-                </a>
+                </button>
                 <ul className="menu">
                     <li><NavLink to="/skills">Skills</NavLink></li>
                     <li><NavLink to="/achievements">Achievements</NavLink></li>
